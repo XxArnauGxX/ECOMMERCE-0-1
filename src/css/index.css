@@ -1,0 +1,115 @@
+/* Header */
+#header-content {
+    background-color: rgb(167, 167, 167);
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas si es necesario */
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+}
+
+#logo {
+    width: 110px; /* Ajusta el tamaño según tus necesidades */
+    height: 110px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%;
+    margin: 10px;
+    display: block;
+}
+
+#logo img {
+    width: 100%; /* Asegura que la imagen ocupe todo el contenedor */
+    height: auto;
+    display: block;
+}
+
+#nav-bar {
+    flex-grow: 1; /* Permite que el nav-bar ocupe el espacio restante */
+    text-align: left;
+}
+
+#nav-bar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Elimina los puntos de la lista */
+    display: flex; /* Alinea los elementos en una fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+#nav-bar ul li {
+    margin-right: 15px; /* Separación entre elementos */
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+#nav-bar ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+#nav-bar ul li:hover {
+    transform: scale(1.1);
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+    font-weight: bold;
+}
+
+#search-bar {
+    padding: 5px;
+    text-align: center;
+    flex-grow: 1; /* Permite que el search-bar ocupe el espacio restante */
+}
+
+#search {
+    padding: 5px;
+    text-align: center;
+}
+
+#user-login {
+    padding: 5px;
+    text-align: right;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#user-login a {
+    display: inline-block;
+}
+
+#user-img {
+    width: 30px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    vertical-align: middle; /* Alinea verticalmente con el texto si es necesario */
+    transition: transform 0.3s ease; /* Transición suave para el cambio de tamaño */
+}
+
+#user-img:hover {
+    transform: scale(1.1);
+}
+
+#chart {
+    padding: 5px;
+    text-align: right;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#chart a {
+    display: inline-block;
+}
+
+#carrito-img {
+    width: 30px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    vertical-align: middle; /* Alinea verticalmente con el texto si es necesario */
+    transition: transform 0.3s ease; /* Transición suave para el cambio de tamaño */
+}
+
+#carrito-img:hover {
+    transform: scale(1.1);
+}
