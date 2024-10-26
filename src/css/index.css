@@ -293,3 +293,41 @@ section {
         margin: 10px 0;
     }
 }
+
+/* Estilos específicos para la página de productos */
+#productos-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    flex: 1 1 calc(33.333% - 30px);
+    margin: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+.producto .card-body {
+    padding: 15px;
+}
+
+.producto .card-title {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
+
+.producto .card-text {
+    margin-bottom: 10px;
+}
+
+.producto .card-text strong {
+    display: block;
+    margin-bottom: 5px;
+}
