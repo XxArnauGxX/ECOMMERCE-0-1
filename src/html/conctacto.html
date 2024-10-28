@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>0&1</title>
+    <title>Contacto - 0&1</title>
     <link rel="stylesheet" href="../css/index.css">
     <script src="../js/index.js" defer></script>
 </head>
@@ -21,7 +21,7 @@
                     <li><a href="../html/productos.html">Productos</a></li>
                     <li><a href="../html/ofertas.html">Ofertas</a></li>
                     <li><a href="../html/about.html">Sobre nosotros</a></li>
-                    <li><a href="../html/conctacto.html">Contacto</a></li>
+                    <li><a href="../html/contacto.html">Contacto</a></li>
                 </ul>
             </nav>
             <div id="search-bar">
@@ -42,19 +42,22 @@
             <img src="../img/4k-tech-fi904sfb2h6pmfhs.jpg" alt="Imagen principal">
         </div>
 
-        <section id="productos-mas-vendidos">
-            <h1>Productos mas vendidos</h1>
-            <div id="productos">
-                <!-- Productos más vendidos se cargarán aquí -->
+        <main id="main-content">
+            <div id="contacto">
+                <h1>Contacto</h1>
+                <form action="#">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" name="telefono" id="telefono">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
-        </section>
-
-        <section id="ofertas">
-            <h1>Ofertas</h1>
-            <div id="ofertas-productos">
-                <!-- Ofertas se cargarán aquí -->
-            </div>
-        </section>
+        </main>
 
         <footer id="footer-content">
             <div class="footer-section">
@@ -68,7 +71,7 @@
                     <li><a href="../html/productos.html">Productos</a></li>
                     <li><a href="../html/ofertas.html">Ofertas</a></li>
                     <li><a href="../html/about.html">Sobre nosotros</a></li>
-                    <li><a href="../html/conctacto.html">Contacto</a></li>
+                    <li><a href="../html/contacto.html">Contacto</a></li>
                 </ul>
             </div>
             <div class="footer-section">
